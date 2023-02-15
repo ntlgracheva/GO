@@ -1,0 +1,52 @@
+@import url(normalize.css);
+@import url(global-styles.css);
+
+@import url(banner.css);
+@import url(halls.css);
+@import url(about-us.css);
+@import url(reviews.css);
+@import url(faq.css);
+@import url(contacts.css);
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 1.25rem;
+    background-color: #1B1A1B;
+    color: #FFFFFF;
+}
+
+header {
+    padding-top: 146px;
+    padding-bottom: 50px;
+}
+
+footer {
+    padding-bottom: 50px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 130px;
+}
+
+section {
+    padding: 50px 0;
+}
+
+
+.block__title {
+    margin-bottom: 60px;
+    font-size: 40px;
+    line-height: 3.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about-us__text {
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,29 @@
+.contacts__list {
+    margin-bottom: 40px;
+}
+
+.contacts__social-list {
+    overflow: hidden;
+}
+
+.contacts__item:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.contacts__icon {
+    display: block;
+    float: left;
+    margin-right: 30px;
+    color: #CD06FF;
+}
+
+.contacts__social-item {
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    float: left;
+}
+
+.contacts__social-item:not(:last-child) {
+    margin-right: 27px;
+}
