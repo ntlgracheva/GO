@@ -8,11 +8,12 @@
 }
 
 .banner__title {
-    font-size: 9.375rem;
-    line-height: 9.375rem;
+    font-size: 150px;
     font-weight: 900;
+    line-height: 150px;
     text-transform: uppercase;
     letter-spacing: -0.1em;
+    font-family: "Arial Black";
 }
 
 .banner::after {
