@@ -4,6 +4,7 @@
 }
 
 .banner__text {
+    margin-bottom: 65px;
     padding-left: 100px;
 }
 
@@ -17,8 +18,9 @@
 }
 
 .banner::after {
+    z-index: 1;
     content: "";
-    position: relative;
+    position: absolute;
     display: block;
     width: 675px;
     height: 762px;
@@ -26,6 +28,63 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    bottom: 115px;
-    left: 510px;
+    bottom: 0;
+    left: 631px;
+
+}
+
+.banner__text-group {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    align-items: end;
+}
+
+.banner__text-paragraph {
+    margin-bottom: 150px;
+
+}
+
+.banner__text-violet {
+    display: block;
+    font-weight: 900;
+    color: #CD06FF;
+}
+
+.banner__text-violet.number {
+    font-size: 100px;
+}
+
+.banner__text-violet.text {
+    font-size: 75px;
+    font-variant: all-small-caps;
+}
+
+.button.book-place-bg-violet {
+    height: 80px;
+    width: 374px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+    border-color: #6C0287;
+    border-radius: 10px;
+    background-color: #6C0287;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.button.circle.down {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    bottom: 90px;
+    height: 97px;
+    width: 97px;
+    left: calc((100% - 97px) / 2);
+    border-radius: 50%;
+    background-image: url("../icons/down.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }

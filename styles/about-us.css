@@ -32,6 +32,10 @@
     background-repeat: no-repeat;
 }
 
+.about-us__text {
+    margin-bottom: 1rem;
+}
+
 .blockquote__text::before,
 .blockquote__text::after {
     position: relative;

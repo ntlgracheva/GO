@@ -1,0 +1,126 @@
+.block.booking {
+    background-color: #440F51;
+}
+
+.form__fieldset {
+    display: flex;
+    margin-bottom: 60px;
+    border: none;
+}
+
+.form__legend {
+    width: 100%;
+}
+
+.form__legend:not(.sub) {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.form__legend.sub {
+    margin-bottom: 24px;
+}
+
+.form-halls {
+    justify-content: space-between;
+}
+
+.form-fieldset__button {
+    flex-basis: 250px;
+    min-height: 55px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.form-set-games {
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.form-playstation,
+.form-table-games,
+.form-additional {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+.form-playstation__input {
+    width: 27px;
+    height: 27px;
+    margin-right: 12px;
+}
+
+.form-playstation label,
+.form-table-games label,
+.form-additional label {
+    display: flex;
+    align-items: center;
+}
+
+.form-playstation label:not(:last-child),
+.form-table-games label:not(:last-child),
+.form-additional label:not(:last-child) {
+    margin-bottom: 12px;
+    line-height: 27px;
+}
+
+.form-table-games__input,
+.form-additional__input {
+    width: 25px;
+    height: 25px;
+    margin-right: 12px;
+}
+
+.form-get-date {
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 0 100px;
+    gap: 50px;
+}
+
+.column_width_300 {
+    flex-basis: 300px;
+
+}
+
+.column_width_280 {
+    flex-basis: 280px;
+}
+
+.form-get-date label,
+.form-get-date input {
+    width: 100%;
+}
+
+.form-get-date input {
+    height: 52px;
+}
+
+.column-get-date {
+    display: flex;
+    gap: 32px;
+}
+
+.column-get-date input {
+    width: 134px;
+}
+
+.button.book-place-bg-white {
+    height: 60px;
+    width: 300px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    text-transform: uppercase;
+    color: #6C0287;
+}

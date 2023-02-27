@@ -7,6 +7,9 @@
 @import url(reviews.css);
 @import url(faq.css);
 @import url(contacts.css);
+@import url(nav-menu.css);
+@import url(we-have.css);
+@import url(booking.css);
 
 html {
     font-size: 16px;
@@ -18,12 +21,14 @@ body {
     color: #FFFFFF;
 }
 
-header section{
-    padding-top: 146px;
+header section {
+    padding-top: 38px;
+    padding-bottom: 8px;
 }
 
 footer {
     padding-bottom: 50px;
+    background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
 }
 
 .container {
@@ -44,8 +49,4 @@ section {
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-}
-
-.about-us__text {
-    margin-bottom: 1rem;
 }

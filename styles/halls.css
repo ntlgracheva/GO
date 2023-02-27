@@ -1,16 +1,18 @@
+.halls__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 .halls__item {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 580px;
-    height: 349px;
-    padding-top: 135px;
-    margin-bottom: 20px;
+    min-height: 349px;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-}
-
-.halls__item:not(:nth-child(even)) {
-    margin-right: 14px;
 }
 
 .halls__item:nth-child(2) {

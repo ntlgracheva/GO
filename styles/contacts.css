@@ -27,3 +27,15 @@
 .contacts__social-item:not(:last-child) {
     margin-right: 27px;
 }
+
+.contacts-wrapper {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 274px;
+}
+
+.contacts__map {
+    width: 680px;
+}

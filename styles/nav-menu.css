@@ -1,0 +1,33 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 96px;
+}
+
+.navigation__list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 40px;
+    flex-grow: 1;
+    text-transform: uppercase;
+    line-height: 50px;
+    white-space: nowrap;
+}
+
+.navigation__link-home {
+    min-width: 120px;
+}
+
+.button.book-call {
+    height: 55px;
+    min-width: 280px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: 3px solid #CD06FF;
+    text-transform: uppercase;
+    background-color: transparent;
+}
