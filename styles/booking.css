@@ -77,13 +77,13 @@
 }
 
 .form-get-date {
-    background-color: green;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-end;
+    align-items: flex-end;
     padding: 0 100px;
-    gap: 50px;
+    gap: 36px 50px;
 }
 
 .column_width_300 {
