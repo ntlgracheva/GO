@@ -135,6 +135,15 @@
     border: 2px solid transparent;
 }
 
+input[type="date"]::-webkit-input-placeholder {
+    content: "Дата";
+}
+
+input::-webkit-calendar-picker-indicator {
+    background-image: url(/images/arrows/arrow-down.png);
+    background-position: 0% 50%;
+}
+
 .form-get-date input:focus {
     border: 2px solid #CD06FF
 }
