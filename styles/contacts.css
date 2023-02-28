@@ -19,14 +19,47 @@
 
 .contacts__social-item {
     display: block;
-    width: 3rem;
-    height: 3rem;
     float: left;
 }
 
 .contacts__social-item:not(:last-child) {
     margin-right: 27px;
 }
+
+.contacts__social-item a {
+    display: block;
+    width: 3rem;
+    height: 3rem;
+}
+
+.contacts__social-item a {
+    border: 1px solid transparent;
+    /*border-radius: 50%;*/
+    outline: none;
+}
+
+.contacts__social-item a,
+.contacts__social-item a svg {
+    transition: color 200ms linear, border-color 200ms linear;
+}
+
+.contacts__social-item a:hover {
+    color: #EADEED;
+}
+
+.contacts__social-item a:hover:active svg {
+    color: #CD06FF;
+}
+
+.contacts__social-item a:focus {
+    border-color: #CD06FF;
+}
+
+.contacts__social-item a:focus svg {
+    color: #EADEED;
+
+}
+
 
 .contacts-wrapper {
     display: flex;

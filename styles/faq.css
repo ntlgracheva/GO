@@ -17,23 +17,55 @@
     color: #fff;
 }
 
-.questions__item::after {
+.button-open {
     position: relative;
     top: -10px;
     float: right;
-    ;
-    content: "";
-    display: block;
     height: 46px;
     width: 46px;
-    background-repeat: no-repeat;
-    background-size: contain;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: transparent;
+    transition: background-color 200ms linear, color 200ms linear;
 }
 
-.questions__item_bg_violet::after {
-    background-image: url("../icons/faq/open.svg");
+.button-open:after {
+    content: "+";
+    display: block;
+    font-size: 28px;
 }
 
-.questions__item_bg_white::after {
-    background-image: url("../icons/faq/open-purple.svg");
+.questions__item_bg_violet .button-open {
+    border-color: #fff;
+    color: #fff;
+}
+
+.questions__item_bg_white .button-open {
+    border-color: #6C0287;
+    color: #6C0287;
+}
+
+.questions__item_bg_violet .button-open:hover {
+    background-color: #fff;
+    color: #6C0287;
+}
+
+.questions__item_bg_white .button-open:hover {
+    background-color: #6C0287;
+    color: #fff;
+}
+
+.questions__item_bg_violet .button-open:hover:active {
+    background-color: transparent;
+    color: #fff;
+}
+
+.questions__item_bg_white .button-open:hover:active {
+    background-color: transparent;
+    color: #6C0287;
+}
+
+
+.button-open:active:after {
+    content: "―";
 }
