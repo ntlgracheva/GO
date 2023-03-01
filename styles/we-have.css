@@ -43,3 +43,8 @@
 .we-have__item.playstation {
     background-image: url(../images/we-have/playstation.png);
 }
+
+.we-have__item:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.35);
+}

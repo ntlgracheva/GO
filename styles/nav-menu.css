@@ -15,6 +15,14 @@
     white-space: nowrap;
 }
 
+.navigation__list-item {
+    transition: color 200ms;
+}
+
+.navigation__list-item:hover {
+    color: #CD06FF;
+}
+
 .navigation__link-home {
     min-width: 120px;
 }

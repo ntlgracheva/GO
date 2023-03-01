@@ -1,3 +1,7 @@
+.contacts {
+    background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
+}
+
 .contacts__list {
     margin-bottom: 40px;
 }
@@ -71,4 +75,13 @@
 
 .contacts__map {
     width: 680px;
+}
+
+.contacts__item {
+    cursor: pointer;
+    transition: color 200ms linear;
+}
+
+.contacts__item:hover {
+    color: #CD06FF;
 }

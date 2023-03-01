@@ -45,12 +45,12 @@
     color: #6C0287;
 }
 
-.questions__item_bg_violet .button-open:hover {
+.questions__item_bg_violet:hover .button-open {
     background-color: #fff;
     color: #6C0287;
 }
 
-.questions__item_bg_white .button-open:hover {
+.questions__item_bg_white:hover .button-open {
     background-color: #6C0287;
     color: #fff;
 }
