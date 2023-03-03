@@ -50,7 +50,7 @@
 .banner__text-violet {
     display: block;
     font-weight: 900;
-    color: #CD06FF;
+    color: var(--color-violet-light);
 }
 
 .banner__text-violet.number {
@@ -68,24 +68,24 @@
     font-size: 26px;
     font-weight: 700;
     line-height: 30px;
-    border-color: #6C0287;
+    border-color: var(--color-violet-medium);
     border-radius: 10px;
-    background-color: #6C0287;
+    background-color: var(--color-violet-medium);
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--color-white);
 }
 
 .button.book-place-bg-violet:hover,
 .button.book-place-bg-violet:focus {
-    background-color: #840AA3;
-    border-color: #840AA3;
+    background-color: var(--color-violet-secondary4);
+    border-color: var(--color-violet-secondary4);
     outline: none;
     transition: background-color 200ms linear, border-color 200ms linear;
 }
 
 .button.book-place-bg-violet:hover:active {
-    background-color: #640AA3;
-    border-color: #640AA3;
+    background-color: var(--color-violet-secondary3);
+    border-color: var(--color-violet-secondary4);
 
 }
 
@@ -106,7 +106,7 @@
     height: 100%;
     padding-top: 30px;
     border-radius: 50%;
-    border: 1px solid #FFF;
+    border: 1px solid var(--color-white);
 }
 
 .button__svg-down {
@@ -115,18 +115,19 @@
 }
 
 .button.circle.down:hover .button__wrapper {
-    background-color: #FFF;
-    color: #6C0287;
+    background-color: var(--color-white);
+    color: var(--color-violet-medium);
     transition: 200ms;
 }
 
 .button.circle.down:hover:active .button__wrapper {
-    background-color: #CD06FF;
-    color: #FFF;
-    border-color: #CD06FF;
+    background-color: var(--color-violet-light);
+    color: var(--color-white);
+    border-color: var(--color-violet-light);
 }
 
 .button.circle.down:focus {
     outline: none;
-    border-color: #CD06FF;
+    border-color: var(--color-violet-light);
+    ;
 }

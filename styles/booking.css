@@ -1,5 +1,5 @@
 .block.booking {
-    background-color: #440F51;
+    background-color: var(--color-violet-dark);
 }
 
 .form__fieldset {
@@ -29,28 +29,28 @@
     flex-basis: 250px;
     min-height: 55px;
     border-radius: 8px;
-    background-color: #FFFFFF;
+    background-color: var(--color-white);
     font-size: 30px;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
-    border: 3px solid #FFFFFF;
+    border: 3px solid var(--color-white);
     transition: background-color 200ms linear, border-color 200ms linear, color 200ms linear;
 }
 
 .form-fieldset__button:hover {
-    background-color: #EADEED;
-    border-color: #640AA3;
+    background-color: var(--color-violet-secondary5);
+    border-color: var(--color-violet-secondary3);
 }
 
 .form-fieldset__button:hover:active {
-    background-color: #6C0287;
-    border-color: #FFFFFF;
-    color: #FFFFFF;
+    background-color: var(--color-violet-medium);
+    border-color: var(--color-white);
+    color: var(--color-white);
 }
 
 .form-fieldset__button:focus {
-    border-color: #640AA3;
+    border-color: var(--color-violet-secondary3);
     outline: none;
 }
 
@@ -145,7 +145,7 @@ input::-webkit-calendar-picker-indicator {
 }
 
 .form-get-date input:focus {
-    border: 2px solid #CD06FF
+    border: 2px solid var(--color-violet-light)
 }
 
 .button.book-place-bg-white {
@@ -155,34 +155,34 @@ input::-webkit-calendar-picker-indicator {
     font-weight: 700;
     line-height: 28px;
     border-radius: 10px;
-    background-color: #FFFFFF;
+    background-color: var(--color-white);
     text-transform: uppercase;
-    color: #6C0287;
-    border: 3px solid #FFFFFF;
+    color: var(--color-violet-medium);
+    border: 3px solid var(--color-white);
     transition: 200ms;
 }
 
 .button.book-place-bg-white:hover {
-    background-color: #EADEED;
-    border-color: #6C0287;
-    color: #6C0287;
+    background-color: var(--color-violet-secondary5);
+    border-color: var(--color-violet-medium);
+    color: var(--color-violet-medium);
 }
 
 .button.book-place-bg-white:hover:active {
-    background-color: #EADEED;
-    border-color: #EADEED;
-    color: #6C0287;
+    background-color: var(--color-violet-secondary5);
+    border-color: var(--color-violet-secondary5);
+    color: var(--color-violet-medium);
 }
 
 .button.book-place-bg-white:focus {
-    background-color: #FFFFFF;
-    border-color: #6C0287;
-    color: #6C0287;
+    background-color: var(--color-white);
+    border-color: var(--color-violet-medium);
+    color: var(--color-violet-medium);
     outline: none;
 }
 
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
     outline: none;
-    box-shadow: 0 0 0 1px #CD06FF;
+    box-shadow: 0 0 0 1px var(--color-violet-light);
 }

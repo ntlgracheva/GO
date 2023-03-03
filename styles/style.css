@@ -1,5 +1,6 @@
 @import url(normalize.css);
 @import url(global-styles.css);
+@import url(var.css);
 
 @import url(banner.css);
 @import url(halls.css);
@@ -17,8 +18,8 @@ html {
 
 body {
     font-size: 1.25rem;
-    background-color: #1B1A1B;
-    color: #FFFFFF;
+    background-color: var(--color-black);
+    color: var(--color-white);
 }
 
 header section {
@@ -31,7 +32,7 @@ footer {
     padding-bottom: 100px;
     font-size: 14px;
     line-height: 16px;
-    background-color: #370A37;
+    background-color: var(--color-violet-secondary1);
     text-align: right;
 }
 
@@ -47,7 +48,7 @@ footer .container {
 }
 
 .footer__designer:hover .footer__designer-mail {
-    color: #CD06FF;
+    color: var(--color-violet-light);
 }
 
 .container {

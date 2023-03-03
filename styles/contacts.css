@@ -18,7 +18,7 @@
     display: block;
     float: left;
     margin-right: 30px;
-    color: #CD06FF;
+    color: var(--color-violet-light);
 }
 
 .contacts__social-item {
@@ -52,11 +52,11 @@
 }
 
 .contacts__social-item a:hover:active svg {
-    color: #CD06FF;
+    color: var(--color-violet-light);
 }
 
 .contacts__social-item a:focus {
-    border-color: #CD06FF;
+    border-color: var(--color-violet-light);
 }
 
 .contacts__social-item a:focus svg {
@@ -83,5 +83,5 @@
 }
 
 .contacts__item:hover {
-    color: #CD06FF;
+    color: var(--color-violet-light);
 }
