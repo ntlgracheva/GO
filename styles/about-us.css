@@ -1,0 +1,56 @@
+.about-us__text-wrapper {
+    padding-left: 680px;
+    background-image: url(../images/about-us/about-us.png);
+    background-size: 600px auto;
+    background-repeat: no-repeat;
+}
+
+.about-us__text {
+    line-height: 28px;
+}
+
+.about-us__blockquote {
+    margin: 0;
+}
+
+.blockquote__text {
+    margin: 4.85rem 0 2.5rem 0;
+    font-size: 2.75rem;
+    padding: 0 50px;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+.blockquote__cite {
+    display: inline-block;
+    height: 80px;
+    margin-left: 120px;
+    padding-left: 120px;
+    line-height: 28px;
+    background-image: url(../icons/about-us/user-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.about-us__text {
+    margin-bottom: 1rem;
+}
+
+.blockquote__text::before,
+.blockquote__text::after {
+    position: relative;
+    display: inline-block;
+    font-size: 44px;
+    font-weight: 900;
+    color: var(--color-violet-medium);
+}
+
+.blockquote__text::before {
+    left: -50px;
+    content: "“";
+}
+
+.blockquote__text::after {
+    content: "”";
+    right: -15px;
+}

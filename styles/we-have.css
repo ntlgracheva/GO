@@ -1,0 +1,60 @@
+.we-have__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--gap-row) var(--gap-column);
+}
+
+.we-have__item {
+    display: flex;
+    align-items: flex-end;
+    height: 228px;
+    flex-basis: calc(100% / var(--cart-count) - (var(--gap-column) * (var(--cart-count) - 1)) / var(--cart-count));
+    padding: 6px 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.we-have__item-translated {
+    transform: translateY(70px);
+}
+
+.we-have__item-title {
+    display: block;
+    min-height: 56px;
+}
+
+.we-have__item.vr-glasses {
+    background-image: url(../images/we-have/vr-glasses.png);
+}
+
+.we-have__item.audio-system {
+    background-image: url(../images/we-have/audio-system.png);
+}
+
+.we-have__item.karaoke {
+    background-image: url(../images/we-have/karaoke.png);
+}
+
+.we-have__item.table-games {
+    background-image: url(../images/we-have/table-games.png);
+}
+
+.we-have__item.cinema-services {
+    background-image: url(../images/we-have/cinema-services.png);
+}
+
+.we-have__item.playstation {
+    background-image: url(../images/we-have/playstation.png);
+}
+
+.we-have__item:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.35);
+}
+
+.we-have__item-translated:hover {
+    transform: translateY(70px) scale(1.1);
+}

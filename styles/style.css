@@ -1,0 +1,72 @@
+@import url(normalize.css);
+@import url(global-styles.css);
+@import url(var.css);
+
+@import url(banner.css);
+@import url(halls.css);
+@import url(about-us.css);
+@import url(reviews.css);
+@import url(faq.css);
+@import url(contacts.css);
+@import url(nav-menu.css);
+@import url(we-have.css);
+@import url(booking.css);
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 1.25rem;
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+header section {
+    padding-top: 38px;
+    padding-bottom: 8px;
+}
+
+footer {
+    padding-top: 58px;
+    padding-bottom: 100px;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: var(--color-violet-secondary1);
+    text-align: right;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.footer__designer-mail {
+    transition: color 200ms;
+}
+
+.footer__designer:hover .footer__designer-mail {
+    color: var(--color-violet-light);
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 130px;
+}
+
+section {
+    padding: 50px 0;
+}
+
+
+.block__title {
+    margin-bottom: 60px;
+    font-size: 40px;
+    line-height: 3.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
